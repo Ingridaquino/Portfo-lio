@@ -1,0 +1,36 @@
+:root {
+    --white:#fff;
+    --blue-200:#0089BA;
+    --gray-300:#c4c4cc;
+    --gray-400:#8d8d99;
+    --gray-600:#323238;
+    --gray-700:#29292e;
+    --gray-800:#202024;
+    --gray-900:#121214;
+
+    --green-300:#00b37e;
+    --green-500:#00875f;
+
+    --red-500:#F75A68;
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background:var(--gray-900);
+    color:var(--gray-300);
+
+    -webkit-font-smoothing: antialiased; /*Para o browse deixar a font das letras mais fininhas (que não são padrao do sistema)*/
+}
+
+body, input, button, textarea {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1rem; /*rem melhor para acessibilidade, a cada 1rem é 16px*/
+}

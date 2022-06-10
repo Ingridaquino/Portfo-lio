@@ -1,0 +1,16 @@
+.header {
+    background:var(--gray-800);
+    color: var(--white);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.25rem 0;
+}
+
+.header strong, svg {
+    color: var(--blue-200);
+    font-size: 1.35rem;
+}
+
+
