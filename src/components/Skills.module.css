@@ -1,0 +1,7 @@
+.skills {
+    height: 30rem;
+    padding: 4rem 2rem;
+    text-align:justify;
+    background-color: var(--gray-800);
+    border-radius: 8px;
+}

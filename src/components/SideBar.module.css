@@ -8,6 +8,8 @@
     width: 100%;
     height: 79px;
     object-fit:cover;
+
+    border-bottom: 2px solid var(--blue-200);
 }
 
 
@@ -37,6 +39,8 @@
     width: 5rem;
     height: 5rem;
     border-radius: 8px;
+
+    border: 2px solid var(--blue-200);
 }
 
 .sideContainer footer {
@@ -66,6 +70,6 @@
 }
 
 .sideContainer footer a:hover {
-    background:var(--blue-200);
+    background:var(--blue-dark);
     color: var(--white);
 }
