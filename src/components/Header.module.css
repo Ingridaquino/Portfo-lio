@@ -10,7 +10,7 @@
 .header strong {
     color: var(--blue-200);
     font-size: 2rem;
-    text-align: center;
+    text-align: star;
 
     position: relative;
 }
@@ -75,6 +75,10 @@
     .header {
         grid-template-columns: 1fr; 
         gap: 1rem;  
+    }
+
+    .header strong {
+        text-align: center;
     }
     
 }

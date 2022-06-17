@@ -73,3 +73,9 @@
     background:var(--blue-dark);
     color: var(--white);
 }
+
+@media (max-width: 700px) {
+    .sideContainer {
+        width: 450px;
+    }
+}
