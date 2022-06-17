@@ -1,12 +1,11 @@
 
 import styles  from './App.module.css';
-import { Skills } from './components/Skills';
-
-
-import { Header } from './components/Header';
-import { SideBar } from './components/SideBar';
 import './global.css';
 
+import { Skills } from './components/Skills';
+import { Header } from './components/Header';
+import { SideBar } from './components/SideBar';
+import Projects from './components/Projects';
 
 
 export function App() {
@@ -18,6 +17,7 @@ export function App() {
         <SideBar />
         <main>
           <Skills />
+          <Projects />
         
         </main>
       </div>

@@ -1,5 +1,6 @@
+import { Code } from "phosphor-react";
 import { Cashier } from "./Cashier";
-import { Projetos } from "./Projetos";
+
 
 import styles from './Skills.module.css';
 
@@ -7,9 +8,9 @@ import styles from './Skills.module.css';
 export function Skills() {
 
     return (
-        <div className={styles.cashier}>       
+        <div className={styles.containerSkill}>       
             <section className={styles.contentSkills}>
-                <h2>Minhas Skills</h2>
+                <h2> <Code size={32}/> Minhas Skills  </h2>
 
                 <div className={styles.listSkills}>
                     <Cashier 
@@ -33,6 +34,14 @@ export function Skills() {
                         porcetagem={50}
                         line={false}
                     />
+
+                    <Cashier 
+                        tecnologia="Java"
+                        porcetagem={30}
+                        line={false}
+                    />
+
+                    
                 </div>
             </section>
         </div>

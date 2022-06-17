@@ -1,4 +1,4 @@
-.cashier {
+.containerSkill {
     height: 30rem;
     padding: 4rem 2rem;
     background-color: var(--gray-800);
@@ -12,6 +12,19 @@
 }
 
 .contentSkills h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.5;
     text-align: center;
     padding-bottom: 2rem;
+    color: var(--blue-300);
+
+    position: relative;
+
+}
+
+.contentSkills svg  {
+    position: absolute;
+    top: 2%;
+    left: 36.5%;
 }
