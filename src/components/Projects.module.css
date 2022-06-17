@@ -18,7 +18,7 @@
     position: relative;
 }
 
-.containerPro svg  {
+.containerPro svg {
     position: absolute;
     top: 25%;
     left: 40%;
@@ -31,4 +31,8 @@
     padding: 0.5rem 1rem;
 }
 
-
+@media (max-width: 700px) {
+    .slider {
+        width: 350px;
+    }
+}

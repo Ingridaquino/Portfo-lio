@@ -10,7 +10,8 @@ export function Skills() {
     return (
         <div className={styles.containerSkill}>       
             <section className={styles.contentSkills}>
-                <h2> <Code size={32}/> Minhas Skills  </h2>
+            {/* <Code size={32}/>  */}
+            <h2> Minhas Skills </h2>
 
                 <div className={styles.listSkills}>
                     <Cashier 
