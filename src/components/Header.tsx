@@ -6,7 +6,7 @@ export function Header() {
         <header className={styles.header}>
             <strong>
                 Ingrid Aquin
-            <Atom size={25} />
+            <Atom size={32} />
             </strong>
 
             <div className={styles.network}>

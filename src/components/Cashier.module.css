@@ -1,0 +1,49 @@
+.tecCashier {
+    padding: 1rem;   
+}
+
+.infoTec {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tecCashier .lineTec::before {
+    content: "";
+    display: block;
+    width: 35%;
+    height: 5px;
+    background: #191970;
+    left: 34%;
+    position: absolute;
+}
+
+.lineTecNew::before {
+    width: 30%;
+    content: "";
+    display: block;
+    height: 5px;
+    background: #191970;
+    left: 34%;
+    position: absolute;
+}
+
+
+.tecCashier > div:nth-child(2)::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 5px;
+    background: #8686d8;
+    top: 0;
+}
+
+
+@media (max-width:780px) {
+    .lineTec::before {
+        left: 49%;
+    }
+
+    .lineTecNew::before { 
+        left: 49%;
+    }
+}

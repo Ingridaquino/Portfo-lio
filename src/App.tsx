@@ -8,6 +8,7 @@ import { SideBar } from './components/SideBar';
 import './global.css';
 
 
+
 export function App() {
 
   return (
@@ -17,6 +18,7 @@ export function App() {
         <SideBar />
         <main>
           <Skills />
+        
         </main>
       </div>
     </div>

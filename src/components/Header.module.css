@@ -9,7 +9,7 @@
 
 .header strong {
     color: var(--blue-200);
-    font-size: 1.35rem;
+    font-size: 2rem;
     text-align: center;
 
     position: relative;
@@ -18,7 +18,7 @@
 
 .header strong svg {
     position: absolute;
-
+    top: 10%;
 }
 
 .network {

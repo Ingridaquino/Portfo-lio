@@ -1,7 +1,17 @@
-.skills {
+.cashier {
     height: 30rem;
     padding: 4rem 2rem;
-    text-align:justify;
     background-color: var(--gray-800);
     border-radius: 8px;
+    margin-bottom: 2rem; 
+}
+
+.contentSkills {
+    text-align:justify;
+    margin-bottom: 2rem;
+}
+
+.contentSkills h2 {
+    text-align: center;
+    padding-bottom: 2rem;
 }

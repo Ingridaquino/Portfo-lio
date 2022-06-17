@@ -1,22 +1,41 @@
+import { Cashier } from "./Cashier";
 import { Projetos } from "./Projetos";
 
-
 import styles from './Skills.module.css';
+
 
 export function Skills() {
 
     return (
-        <article className={styles.skills}>
-            <h2>Minhas Skills</h2>
-            
+        <div className={styles.cashier}>       
             <section className={styles.contentSkills}>
-                <p> Tenho conhecimentos em HTML, CSS, JavaScript e um pouco de React.</p>
-                <p> Recentemente comecei a estudar no bootcamp de Desenvolvedor web da Generation Brasil </p>
-            </section>
+                <h2>Minhas Skills</h2>
 
-            <section>
-                <Projetos />          
+                <div className={styles.listSkills}>
+                    <Cashier 
+                        tecnologia="HTML"
+                        porcetagem={75}
+                    />
+
+                    <Cashier 
+                        tecnologia="CSS"
+                        porcetagem={80}
+                    />
+
+                    <Cashier 
+                        tecnologia="JavaScript"
+                        porcetagem={60}
+                        line={false}
+                    />
+
+                    <Cashier 
+                        tecnologia="React"
+                        porcetagem={50}
+                        line={false}
+                    />
+                </div>
             </section>
-        </article>
+        </div>
+        
     )
 }
