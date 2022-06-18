@@ -45,7 +45,7 @@
 
 
 .provided form textarea {
-    width: 65%;
+    width: 64%;
     background: var(--gray-900);
     border: 0;
     outline: none;
@@ -80,17 +80,18 @@
         width: 450px;
     }
 
-    .provided form {
-        background: red;
+    .message {
+        gap: 0.2rem;
+        margin: 0 1rem;
     }
-
     .message  input {
         margin: 0 auto;
-        width: 90%;
-        padding: 0.5rem;
+        width: 99%;
+        padding: 0.4rem;
+        gap: 1rem;
     }
 
     .provided form textarea {
-        width: 95%;
+        width: 90%;
     }
 }
