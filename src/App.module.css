@@ -9,6 +9,18 @@
     align-items: flex-start;
 }
 
+
+::-webkit-scrollbar{
+    background: var(--gray-800); 
+    width: .7rem; 
+}
+
+::-webkit-scrollbar-thumb {
+    background:var(--gray-600); 
+   border-radius: .7rem;
+   height: 50%;
+ }
+
 @media (max-width: 700px) {
     .wrapper {
         grid-template-columns: 1fr;
