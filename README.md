@@ -7,7 +7,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 - Vite
 - React
-- TypeScrip
+- TypeScript
 
 #### Bibliotecas & Frameworks
 
