@@ -5,8 +5,9 @@ Esse é meu portifolio, onde eu demonstro alguns projetos.
 # ⚙ Tecnologias 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- Reactjs
-- CSS3
+- Vite
+- React
+- TypeScrip
 
 #### Bibliotecas & Frameworks
 
