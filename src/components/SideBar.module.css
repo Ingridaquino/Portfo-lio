@@ -56,7 +56,8 @@
     border-radius: 8px;
     height: 50px;
     padding: 0 1.5rem;
-    font-weight: bold;
+    font-weight: 900;
+    line-height: 1.6;
     display: block;
     text-decoration: none;
 

@@ -61,6 +61,8 @@
 .provided form .button {
     background: transparent;
     color: var(--blue-200);
+    font-weight: 900;
+    line-height: 1.6;
     border: 1px solid var(--blue-200);
     border-radius: 8px;
     padding: 0.7rem 1rem;
