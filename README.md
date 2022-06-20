@@ -1,6 +1,6 @@
-# Portifolio 
+# Portfólio 
 
-Esse é meu portifolio, onde eu demonstro alguns projetos.
+Esse é meu Portfólio, onde eu demonstro alguns projetos.
 
 # ⚙ Tecnologias 
 As seguintes ferramentas foram usadas na construção do projeto:
