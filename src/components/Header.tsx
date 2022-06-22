@@ -19,7 +19,7 @@ export function Header() {
                 </div>
 
                 <div className={styles.github}>
-                    <a href="https://www.linkedin.com/in/ingrid-aquino-88a8b9147/">
+                    <a href="https://github.com/Ingridaquino">
                         <GithubLogo size={20} />
                         GitHub
                     </a>
