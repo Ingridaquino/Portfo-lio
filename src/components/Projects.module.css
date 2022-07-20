@@ -33,11 +33,21 @@
 
 @media (max-width: 700px) {
     .slider {
-        width: 350px;
+        width: 320px;
     }
 
     .containerPro {
         width: 450px;
     }
     
+}
+
+@media (max-width: 600px){
+    .containerPro {
+        width: 390px;
+    }
+
+    .slider{
+        width: 300;
+    }
 }
