@@ -78,5 +78,6 @@
 @media (max-width: 700px) {
     .sideContainer {
         width: 390px;
+        margin: 0 auto;
     }
 }

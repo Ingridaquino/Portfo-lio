@@ -34,20 +34,13 @@
 @media (max-width: 700px) {
     .slider {
         width: 320px;
+        margin: 0 auto;
     }
-
+    
     .containerPro {
-        width: 450px;
+        width: 390px;
+        margin: 2rem auto ;
     }
     
 }
 
-@media (max-width: 600px){
-    .containerPro {
-        width: 390px;
-    }
-
-    .slider{
-        width: 300;
-    }
-}

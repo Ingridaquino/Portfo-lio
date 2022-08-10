@@ -32,5 +32,6 @@
 @media (max-width: 700px) {
     .containerSkill {
         width: 390px;
+        margin: 0 auto;
     }
 }
