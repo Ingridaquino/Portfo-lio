@@ -42,6 +42,18 @@ export function Skills() {
                         line={false}
                     />
 
+                    <Cashier 
+                        tecnologia="Spring Boot"
+                        porcetagem={25}
+                        line={false}
+                    />
+
+                    <Cashier 
+                        tecnologia="MySql"
+                        porcetagem={20}
+                        line={false}
+                    />
+
                     
                 </div>
             </section>
