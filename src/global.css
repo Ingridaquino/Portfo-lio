@@ -37,3 +37,13 @@ body, input, button, textarea {
     font-size: 1rem; /*rem melhor para acessibilidade, a cada 1rem é 16px*/
 }
 
+/*===COR NO SCROLL ====*/
+::-webkit-scrollbar{
+    background:var(--gray-300); 
+    width: .7rem; 
+}
+
+::-webkit-scrollbar-thumb {
+   background: rgb(15, 15, 15); 
+   border-radius: .7rem;
+ }

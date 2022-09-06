@@ -1,12 +1,15 @@
 
 import styles  from './App.module.css';
+import { Header } from './components/header/Header';
+import { Provided } from './components/provided/Provided';
+import { SideBar } from './components/sidebar/SideBar';
+import { Skills } from './components/skills/Skills';
+import  Projects  from './components/myprojects/Projects'
+
+
 import './global.css';
 
-import { Skills } from './components/Skills';
-import { Header } from './components/Header';
-import { SideBar } from './components/SideBar';
-import Projects from './components/Projects';
-import { Provided } from './components/Provided';
+
 
 
 export function App() {

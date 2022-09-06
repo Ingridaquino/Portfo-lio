@@ -33,6 +33,7 @@
 }
 
 .message  input {
+    width: 100%;
     padding: 0.875rem;
     background: var(--gray-900);
     border: 0;
@@ -45,7 +46,7 @@
 
 
 .provided form textarea {
-    width: 64%;
+    width: 68%;
     background: var(--gray-900);
     border: 0;
     outline: none;
@@ -61,12 +62,12 @@
 .provided form .button {
     background: transparent;
     color: var(--blue-200);
-    font-weight: 900;
+    font-weight: 700;
     line-height: 1.6;
     border: 1px solid var(--blue-200);
     border-radius: 8px;
     padding: 0.7rem 1rem;
-    margin-top: 1.3rem;
+    margin-top: 2rem;
     outline: none;
 
     transition: color .1s background .1s;
@@ -77,24 +78,34 @@
     color: var(--white);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 996px) {
     .provided {
         width: 390px;
         margin: 0 auto;
     }
 
     .message {
-        gap: 0.2rem;
+        gap: 1rem;
         margin: 0 1rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
+
     .message  input {
         margin: 0 auto;
-        width: 99%;
-        padding: 0.4rem;
+        width: 100%;
+        padding: 0.6rem;
         gap: 1rem;
     }
 
     .provided form textarea {
-        width: 90%;
+        width: 82%;
+    }
+
+
+    
+    .provided form .button {
+        padding: 0.655rem ;
     }
 }

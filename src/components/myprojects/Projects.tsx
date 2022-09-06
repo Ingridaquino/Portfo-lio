@@ -1,18 +1,18 @@
 import styles from './Projects.module.css';
 
-import bookstan from '../assets/bookstan.svg';
-import squirtle from '../assets/squirtle.svg';
-import addRemove from '../assets/addandremo.svg';
-import ballebot from '../assets/ballebot.svg';
-import tabuleiro from '../assets/tabuleiro.svg';
-import buscador from '../assets/buscador.svg';
+import bookstan from '../../assets/bookstan.svg';
+import squirtle from '../../assets/squirtle.svg';
+import addRemove from '../../assets/addandremo.svg';
+import ballebot from '../../assets/ballebot.svg';
+import tabuleiro from '../../assets/tabuleiro.svg';
+import buscador from '../../assets/buscador.svg';
 
 
 import React, { Component } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { ComponentProject } from './ComponentProject';
+import { ComponentProject } from '../componentproject/ComponentProject';
 
 
 export default class Responsive extends Component {

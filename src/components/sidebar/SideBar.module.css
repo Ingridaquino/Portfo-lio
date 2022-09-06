@@ -43,39 +43,52 @@
     border: 2px solid var(--blue-200);
 }
 
-.sideContainer footer {
+.sideContainer .footer {
     border-top: 1px solid var(--gray-600);
     margin-top: 1.5rem;
     padding: 1.5rem 2rem 2rem ;
 }
 
-.sideContainer footer a {
+.sideContainer .footer a {
     background: transparent;
-    color: var(--blue-200);
-    border: 1px solid var(--blue-200);
     border-radius: 8px;
     height: 50px;
     padding: 0 1.5rem;
     font-weight: 900;
     line-height: 1.6;
     display: block;
-    text-decoration: none;
-
+    text-decoration: none;    
     display: flex;
     align-items: center;
     justify-content: center;
-
-    gap: 0.50rem;
-
+    
+    gap: 1rem;
+    
     transition: color 0.1s, background-color 0.1s;
 }
 
-.sideContainer footer a:hover {
+.footer .curriculo {
+    color: var(--blue-200);
+    border: 1px solid var(--blue-200);
+}
+
+.footer .pitch {
+    margin-top: 1rem;
+    color: var(--purple-200);
+    border: 1px solid var(--purple-200);
+}
+
+.sideContainer .footer .curriculo:hover {
     background:var(--blue-dark);
     color: var(--white);
 }
 
-@media (max-width: 700px) {
+.sideContainer .footer .pitch:hover {
+    background:var(--purple-dark);
+    color: var(--white);
+}
+
+@media (max-width: 996px) {
     .sideContainer {
         width: 390px;
         margin: 0 auto;

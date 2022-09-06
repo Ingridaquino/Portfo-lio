@@ -25,13 +25,14 @@
 }
 
 .slider {
-    max-width: 650px;
+    max-width: 620px;
     height: 24rem;
     margin: 0 auto;
     padding: 0.5rem 1rem;
 }
 
-@media (max-width: 700px) {
+
+@media (max-width: 996px) {
     .slider {
         width: 320px;
         margin: 0 auto;

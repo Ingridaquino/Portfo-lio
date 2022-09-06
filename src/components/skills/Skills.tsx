@@ -1,5 +1,5 @@
 import { Code } from "phosphor-react";
-import { Cashier } from "./Cashier";
+import { Cashier } from "../cashier/Cashier";
 
 
 import styles from './Skills.module.css';
