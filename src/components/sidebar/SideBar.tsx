@@ -7,7 +7,7 @@ export function SideBar() {
             <img src="https://qph.fs.quoracdn.net/main-qimg-204bee6e5d4f289d02653cddf82a4475" alt="" />
 
             <div className={styles.sideProfile}>
-                <img className={styles.avatar} src="https://github.com/ingridaquino.png" alt="" />
+                <img className={styles.avatar} src="https://media-exp1.licdn.com/dms/image/C4D03AQGDw_-EUW0htw/profile-displayphoto-shrink_100_100/0/1660654278832?e=1668038400&v=beta&t=xr1MedP2hb77TuP6aWn6NexZi0IPKFJo9JXUsheQyMg" alt="" />
 
                 <p>Ingrid Aquino</p>
                 <span>Web Developer</span>
