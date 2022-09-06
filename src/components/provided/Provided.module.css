@@ -46,7 +46,7 @@
 
 
 .provided form textarea {
-    width: 68%;
+    width: 65%;
     background: var(--gray-900);
     border: 0;
     outline: none;
@@ -97,10 +97,12 @@
         width: 100%;
         padding: 0.6rem;
         gap: 1rem;
+
+        background-color: aqua;
     }
 
     .provided form textarea {
-        width: 82%;
+        width: 80%;
     }
 
 
