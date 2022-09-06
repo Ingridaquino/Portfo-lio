@@ -39,11 +39,11 @@ body, input, button, textarea {
 
 /*===COR NO SCROLL ====*/
 ::-webkit-scrollbar{
-    background:var(--gray-300); 
+    background: var(--gray-600); 
     width: .7rem; 
 }
 
 ::-webkit-scrollbar-thumb {
-   background: rgb(15, 15, 15); 
+  background:var(--gray-800); 
    border-radius: .7rem;
  }
