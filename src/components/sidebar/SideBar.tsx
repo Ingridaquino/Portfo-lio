@@ -16,7 +16,7 @@ export function SideBar() {
             <footer className={styles.footer}>
                 <a 
                     className={styles.curriculo}
-                    href="https://docs.google.com/document/d/171Zj2FYJCrZq2ArPTR186ra9bI7li1cLiz_BiBlGFps/edit?usp=sharing" 
+                    href="https://docs.google.com/document/d/1L1RlcpR7AYQXj4-dKVYttI_cSRPFNHoq/edit?usp=sharing&ouid=112183367245397609295&rtpof=true&sd=true" 
                     download>
                         <GitMerge />
                         Curriculo
