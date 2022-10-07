@@ -1,14 +1,11 @@
 .containerSkill {
-    height: 40rem;
-    padding: 4rem 2rem;
+    padding: 2rem;
     background-color: var(--gray-800);
     border-radius: 8px;
-    margin-bottom: 2rem; 
 }
 
 .contentSkills {
     text-align:justify;
-    margin-bottom: 2rem;
 }
 
 .contentSkills h2 {
@@ -23,15 +20,10 @@
 
 }
 
-.contentSkills svg  {
-    position: absolute;
-    top: 2%;
-    left: 36.5%;
-}
 
 @media (max-width: 996px) {
     .containerSkill {
         width: 390px;
-        margin: 0 auto;
+        margin: auto;
     }
 }

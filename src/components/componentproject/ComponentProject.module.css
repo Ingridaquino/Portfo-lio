@@ -5,7 +5,7 @@
 }
 
 .container > img {
-    width: 100%;
+    width: 99%;
     height: 290px;
     object-fit: cover;
     margin: 0 auto;
@@ -48,3 +48,8 @@
 }
 
 
+@media(max-width: 790px) {
+    .container {
+        width: 260px;
+    }    
+}

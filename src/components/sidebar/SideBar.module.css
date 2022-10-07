@@ -2,6 +2,7 @@
     background-color: var(--gray-800);
     border-radius: 8px;
     overflow: hidden; /* O conteudo que sai do conteiner, fica escondido */
+    margin-bottom: 2rem;
 }
 
 .sideContainer > img {
@@ -91,6 +92,6 @@
 @media (max-width: 996px) {
     .sideContainer {
         width: 390px;
-        margin: 0 auto;
+        margin: 1.5rem auto;
     }
 }

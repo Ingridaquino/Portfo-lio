@@ -34,13 +34,12 @@
 
 @media (max-width: 996px) {
     .slider {
-        width: 320px;
-        margin: 0 auto;
+        width: 300px;
     }
     
     .containerPro {
         width: 390px;
-        margin: 2rem auto ;
+        margin: 1.5rem auto;
     }
     
 }

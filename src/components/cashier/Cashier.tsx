@@ -10,10 +10,11 @@ export function Cashier({tecnologia, porcetagem, line = true}:CashierProps) {
     return (
         <div className={styles.tecCashier}>
             <div className={styles.infoTec}>
-                <p>{tecnologia}</p>
-                <span>{porcetagem}%</span>
+                <p>
+                {tecnologia}
+                <div className={line ? styles.lineTec : styles.lineTecNew}></div>
+                </p>
             </div>
-            <div className={line ? styles.lineTec : styles.lineTecNew}></div>
         </div>
     )
 }

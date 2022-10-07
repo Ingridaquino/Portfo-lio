@@ -19,8 +19,8 @@ export function App() {
       <Header/>
       <div className={styles.wrapper}>
         <SideBar />
+          {/* <Skills /> */}
         <main>
-          <Skills />
           <Projects />
           <Provided />
         </main>

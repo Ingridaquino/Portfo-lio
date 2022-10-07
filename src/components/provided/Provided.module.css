@@ -3,7 +3,7 @@
     padding: 4rem 2rem;
     background-color: var(--gray-800);
     border-radius: 8px;
-    margin-bottom: 2rem; 
+    margin-bottom: 2rem;
 }
 
 .provided h2 {
@@ -32,7 +32,7 @@
     gap: 0.875rem;
 }
 
-.message  input {
+.message input {
     width: 100%;
     padding: 0.875rem;
     background: var(--gray-900);
@@ -46,7 +46,7 @@
 
 
 .provided form textarea {
-    width: 65%;
+    width: 64%;
     background: var(--gray-900);
     border: 0;
     outline: none;
@@ -60,21 +60,22 @@
 }
 
 .provided form .button {
+    cursor: pointer;
     background: transparent;
     color: var(--blue-200);
     font-weight: 700;
     line-height: 1.6;
     border: 1px solid var(--blue-200);
     border-radius: 8px;
-    padding: 0.7rem 1rem;
+    padding: 1rem 1.5rem;
     margin-top: 2rem;
     outline: none;
 
-    transition: color .1s background .1s;
+    transition: color 1s background 1s;
 }
 
 .provided form .button:hover {
-    background:var(--blue-dark);
+    background: var(--blue-dark);
     color: var(--white);
 }
 
@@ -92,7 +93,7 @@
         flex-wrap: wrap;
     }
 
-    .message  input {
+    .message input {
         margin: 0 auto;
         width: 100%;
         padding: 0.6rem;
@@ -100,12 +101,6 @@
     }
 
     .provided form textarea {
-        width: 79%;
-    }
-
-
-    
-    .provided form .button {
-        padding: 0.655rem ;
+        width: 76%;
     }
 }
