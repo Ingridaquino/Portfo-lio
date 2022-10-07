@@ -25,7 +25,8 @@ export function SideBar() {
         <footer className={styles.footer}>
           <a
             className={styles.curriculo}
-            href="https://docs.google.com/document/d/1L1RlcpR7AYQXj4-dKVYttI_cSRPFNHoq/edit?usp=sharing&ouid=112183367245397609295&rtpof=true&sd=true"
+            href="https://www.canva.com/design/DAFMtAugAsM/b53dZWUAlLjMG-yo4vnRKQ/view?utm_content=DAFMtAugAsM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+            target='_blank'
             download
           >
             <GitMerge />
@@ -35,6 +36,7 @@ export function SideBar() {
           <a
             className={styles.pitch}
             href="https://www.youtube.com/watch?v=ChIs5xD2fqM"
+            target='_blank'
           >
             <YoutubeLogo />
             Pitch
