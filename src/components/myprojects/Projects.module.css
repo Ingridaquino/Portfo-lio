@@ -1,46 +1,43 @@
 .containerPro {
-    box-sizing: border-box;
-    height: 35rem;
-    padding: 2rem 1rem;
-    background-color: var(--gray-800);
-    border-radius: 8px;
-    margin-bottom: 2rem; 
+  box-sizing: border-box;
+  height: 35rem;
+  padding: 2rem 1rem;
+  background-color: var(--gray-800);
+  border-radius: 8px;
+  margin-bottom: 2rem;
 }
 
 .containerPro h2 {
-    font-size: 1.5rem;
-    font-weight: 600;
-    line-height: 1.5;
-    text-align: center;
-    padding: 1rem 0.5rem;
-    color: var(--blue-300);
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: center;
+  padding: 1rem 0.5rem;
+  color: var(--blue-300);
 
-    position: relative;
+  position: relative;
 }
 
 .containerPro svg {
-    position: absolute;
-    top: 25%;
-    left: 40%;
+  position: absolute;
+  top: 25%;
+  left: 40%;
 }
 
 .slider {
-    max-width: 620px;
-    height: 24rem;
-    margin: 0 auto;
-    padding: 0.5rem 1rem;
+  max-width: 620px;
+  height: 24rem;
+  margin: 0 auto;
+  padding: 0.5rem 1rem;
 }
-
 
 @media (max-width: 996px) {
-    .slider {
-        width: 300px;
-    }
-    
-    .containerPro {
-        width: 370px;
-        margin: 1.5rem auto;
-    }
-    
-}
+  .slider {
+    width: 300px;
+  }
 
+  .containerPro {
+    width: 370px;
+    margin: 1.5rem auto;
+  }
+}

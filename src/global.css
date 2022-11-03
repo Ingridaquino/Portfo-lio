@@ -1,49 +1,49 @@
 :root {
-    --white:#fff;
-    --gray-300:#c4c4cc;
-    --gray-400:#90909be3;
-    --gray-600:#323238;
-    --gray-700:#29292e;
-    --gray-800:#202024;
-    --gray-900:#121214;
-    
-    --purple-200:#8284FA;
-    --purple-dark:#5E60CE;
-    --blue-200:#0089BA;
-    --blue-300: #4EA8DE;
-    --blue-dark: #1E6F9F;
-    --danger-200: #E25858;
-    
+  --white: #fff;
+  --gray-300: #c4c4cc;
+  --gray-400: #90909be3;
+  --gray-600: #323238;
+  --gray-700: #29292e;
+  --gray-800: #202024;
+  --gray-900: #121214;
+
+  --purple-200: #8284fa;
+  --purple-dark: #5e60ce;
+  --blue-200: #0089ba;
+  --blue-300: #4ea8de;
+  --blue-dark: #1e6f9f;
+  --danger-200: #e25858;
 }
 
-
-
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background:var(--gray-900);
-    color:var(--gray-300);
+  background: var(--gray-900);
+  color: var(--gray-300);
 
-    -webkit-font-smoothing: antialiased; /*Para o browse deixar a font das letras mais fininhas (que não são padrao do sistema)*/
+  -webkit-font-smoothing: antialiased; /*Para o browse deixar a font das letras mais fininhas (que não são padrao do sistema)*/
 }
 
-body, input, button, textarea {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 1rem; /*rem melhor para acessibilidade, a cada 1rem é 16px*/
+body,
+input,
+button,
+textarea {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1rem; /*rem melhor para acessibilidade, a cada 1rem é 16px*/
 }
 
 /*===COR NO SCROLL ====*/
-::-webkit-scrollbar{
-    background: var(--gray-600); 
-    width: .7rem; 
+::-webkit-scrollbar {
+  background: var(--gray-600);
+  width: 0.7rem;
 }
 
 ::-webkit-scrollbar-thumb {
-  background:var(--gray-800); 
-   border-radius: .7rem;
- }
+  background: var(--gray-800);
+  border-radius: 0.7rem;
+}

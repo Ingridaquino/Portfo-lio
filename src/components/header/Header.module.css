@@ -1,86 +1,81 @@
 .header {
-    background:var(--gray-800);
-    color: var(--white);
+  background: var(--gray-800);
+  color: var(--white);
 
-    display: grid;
-    grid-template-columns: 1fr 230px;
-    padding: 1.25rem 3rem;
+  display: grid;
+  grid-template-columns: 1fr 230px;
+  padding: 1.25rem 3rem;
 }
 
 .header strong {
-    color: var(--blue-200);
-    font-size: 2rem;
-    text-align: star;
+  color: var(--blue-200);
+  font-size: 2rem;
+  text-align: star;
 
-    position: relative;
+  position: relative;
 }
 
-
 .header strong svg {
-    position: absolute;
-    top: 10%;
+  position: absolute;
+  top: 10%;
 }
 
 .network {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .network a {
-    display: block;
-    text-decoration: none;
-    position: relative;
+  display: block;
+  text-decoration: none;
+  position: relative;
 
-    font-size: 1rem;
-    color: var(--purple-200);
+  font-size: 1rem;
+  color: var(--purple-200);
 }
 
 .network div a {
-    width: 6rem;
-    padding: 0.4rem 0 0.3rem 0.5rem ;
-    border: 1px solid var(--purple-200);
-    border-radius: 6px;
+  width: 6rem;
+  padding: 0.4rem 0 0.3rem 0.5rem;
+  border: 1px solid var(--purple-200);
+  border-radius: 6px;
 
-    transition: color 0.1s background 0.1s;
+  transition: color 0.1s background 0.1s;
 }
 
 .network a:hover {
-    color: var(--white);
-    background: var(--purple-dark);
+  color: var(--white);
+  background: var(--purple-dark);
 }
 
 .network .github a {
-    padding: 0.4rem 0 0.3rem 0.8rem ;   
+  padding: 0.4rem 0 0.3rem 0.8rem;
 }
 
 .network > div a svg {
-    margin: 0;
-    position: absolute;               /* 2 */
-    top: 42%;
+  margin: 0;
+  position: absolute; /* 2 */
+  top: 42%;
 }
 
 .network > .linkedin a svg {
-    right: 5%;                         /* 3 */
-    transform: translate(0, -40%);
+  right: 5%; /* 3 */
+  transform: translate(0, -40%);
 }
 
 .network > .github a svg {
-    right: 12%; 
-    transform: translate(0, -45%);
+  right: 12%;
+  transform: translate(0, -45%);
 }
-
 
 @media (max-width: 996px) {
-    .header {
-        grid-template-columns: 1fr; 
-        gap: 1rem;  
-    }
+  .header {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
 
-    .header strong {
-        text-align: center;
-    }
-    
+  .header strong {
+    text-align: center;
+  }
 }
-
-

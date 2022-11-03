@@ -26,7 +26,7 @@ export function SideBar() {
           <a
             className={styles.curriculo}
             href="https://www.canva.com/design/DAFMtAugAsM/b53dZWUAlLjMG-yo4vnRKQ/view?utm_content=DAFMtAugAsM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
-            target='_blank'
+            target="_blank"
             download
           >
             <GitMerge />
@@ -36,7 +36,7 @@ export function SideBar() {
           <a
             className={styles.pitch}
             href="https://www.youtube.com/watch?v=ChIs5xD2fqM"
-            target='_blank'
+            target="_blank"
           >
             <YoutubeLogo />
             Pitch

@@ -1,29 +1,27 @@
 .containerSkill {
-    padding: 2rem;
-    background-color: var(--gray-800);
-    border-radius: 8px;
+  padding: 2rem;
+  background-color: var(--gray-800);
+  border-radius: 8px;
 }
 
 .contentSkills {
-    text-align:justify;
+  text-align: justify;
 }
 
 .contentSkills h2 {
-    font-size: 1.5rem;
-    font-weight: 600;
-    line-height: 1.5;
-    text-align: center;
-    padding-bottom: 2rem;
-    color: var(--blue-300);
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: center;
+  padding-bottom: 2rem;
+  color: var(--blue-300);
 
-    position: relative;
-
+  position: relative;
 }
 
-
 @media (max-width: 996px) {
-    .containerSkill {
-        width: 370px;
-        margin: auto;
-    }
+  .containerSkill {
+    width: 370px;
+    margin: auto;
+  }
 }

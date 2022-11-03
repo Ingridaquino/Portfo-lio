@@ -1,106 +1,103 @@
 .provided {
-    height: 30rem;
-    padding: 4rem 2rem;
-    background-color: var(--gray-800);
-    border-radius: 8px;
-    margin-bottom: 2rem;
+  height: 30rem;
+  padding: 4rem 2rem;
+  background-color: var(--gray-800);
+  border-radius: 8px;
+  margin-bottom: 2rem;
 }
 
 .provided h2 {
-    font-size: 1.5rem;
-    font-weight: 600;
-    line-height: 1.5;
-    text-align: center;
-    padding-bottom: 1rem;
-    color: var(--blue-300);
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: center;
+  padding-bottom: 1rem;
+  color: var(--blue-300);
 }
 
-
-
 .provided form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 
-    padding: 1rem 2rem;
+  padding: 1rem 2rem;
 }
 
 .message {
-    display: flex;
-    gap: 0.875rem;
+  display: flex;
+  gap: 0.875rem;
 }
 
 .message input {
-    width: 100%;
-    padding: 0.875rem;
-    background: var(--gray-900);
-    border: 0;
-    outline: none;
-    border-radius: 8px;
-    color: var(--gray-100);
-    line-height: 1.4;
-    margin-top: 1rem;
+  width: 100%;
+  padding: 0.875rem;
+  background: var(--gray-900);
+  border: 0;
+  outline: none;
+  border-radius: 8px;
+  color: var(--gray-100);
+  line-height: 1.4;
+  margin-top: 1rem;
 }
 
-
 .provided form textarea {
-    width: 64%;
-    background: var(--gray-900);
-    border: 0;
-    outline: none;
-    resize: none;
-    height: 6rem;
-    padding: 1rem;
-    border-radius: 8px;
-    color: var(--gray-100);
-    line-height: 1.4;
-    margin-top: 1rem;
+  width: 65%;
+  background: var(--gray-900);
+  border: 0;
+  outline: none;
+  resize: none;
+  height: 6rem;
+  padding: 1rem;
+  border-radius: 8px;
+  color: var(--gray-100);
+  line-height: 1.4;
+  margin-top: 1rem;
 }
 
 .provided form .button {
-    cursor: pointer;
-    background: transparent;
-    color: var(--blue-200);
-    font-weight: 700;
-    line-height: 1.6;
-    border: 1px solid var(--blue-200);
-    border-radius: 8px;
-    padding: 1rem 1.5rem;
-    margin-top: 2rem;
-    outline: none;
+  cursor: pointer;
+  background: transparent;
+  color: var(--blue-200);
+  font-weight: 700;
+  line-height: 1.6;
+  border: 1px solid var(--blue-200);
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  margin-top: 2rem;
+  outline: none;
 
-    transition: color 1s background 1s;
+  transition: color 1s background 1s;
 }
 
 .provided form .button:hover {
-    background: var(--blue-dark);
-    color: var(--white);
+  background: var(--blue-dark);
+  color: var(--white);
 }
 
 @media (max-width: 996px) {
-    .provided {
-        width: 370px;
-        margin: 0 auto;
-    }
+  .provided {
+    width: 370px;
+    margin: 0 auto;
+  }
 
-    .message {
-        gap: 1rem;
-        margin: 0 1rem;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
+  .message {
+    gap: 1rem;
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
 
-    .message input {
-        margin: 0 auto;
-        width: 100%;
-        padding: 0.6rem;
-        gap: 1rem;
-    }
+  .message input {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0.6rem;
+    gap: 1rem;
+  }
 
-    .provided form textarea {
-        width: 76%;
-    }
+  .provided form textarea {
+    width: 86%;
+  }
 }

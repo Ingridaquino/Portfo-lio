@@ -1,55 +1,53 @@
 .container {
-    width: 280px;
-    margin: 1rem auto;
-    position: relative;
+  width: 280px;
+  margin: 1rem auto;
+  position: relative;
 }
 
 .container > img {
-    width: 99%;
-    height: 290px;
-    object-fit: cover;
-    margin: 0 auto;
-    border-radius: 8px;
+  width: 99%;
+  height: 290px;
+  object-fit: cover;
+  margin: 0 auto;
+  border-radius: 8px;
 }
 
 .container > div {
-    margin-top: -5rem;
-    padding: 1rem 1rem;
+  margin-top: -5rem;
+  padding: 1rem 1rem;
 
- 
-    background: rgba(18, 18, 20, 0.88);
-    border-radius: 0 0 8px 8px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(6.7px);
-    -webkit-backdrop-filter: blur(6.7px);
-    border: 1px solid rgba(18, 18, 20, 1);
+  background: rgba(18, 18, 20, 0.88);
+  border-radius: 0 0 8px 8px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.7px);
+  -webkit-backdrop-filter: blur(6.7px);
+  border: 1px solid rgba(18, 18, 20, 1);
 }
 
 .container > div:hover {
-    top: 5rem  ;
+  top: 5rem;
 }
 
 .container > div a {
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    padding: 1rem 1rem;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 1rem 1rem;
 
-    color: var(--purple-dark);
-    font-size: 1rem;
-    font-weight: 600;
-    line-height: 1.5;
+  color: var(--purple-dark);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
 
-    transition: color .1s;
+  transition: color 0.1s;
 }
 
 .container > div a:hover {
-    color: var(--purple-200);
+  color: var(--purple-200);
 }
 
-
-@media(max-width: 790px) {
-    .container {
-        width: 260px;
-    }    
+@media (max-width: 790px) {
+  .container {
+    width: 260px;
+  }
 }
