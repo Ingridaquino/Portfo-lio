@@ -23,7 +23,8 @@
 .network {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  gap: 1rem;
+  background-color: transform;
 }
 
 .network a {
@@ -77,5 +78,11 @@
 
   .header strong {
     text-align: center;
+  }
+
+  .network {
+    justify-content: center;
+    width: 220px;
+    margin: 0 auto;
   }
 }

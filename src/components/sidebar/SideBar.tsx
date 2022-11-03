@@ -1,6 +1,7 @@
 import { GitMerge, YoutubeLogo } from "phosphor-react";
 import { Skills } from "../skills/Skills";
 import styles from "./SideBar.module.css";
+import Curriculo from "./../../assets/curriculo.pdf"
 
 export function SideBar() {
   return (
@@ -25,12 +26,12 @@ export function SideBar() {
         <footer className={styles.footer}>
           <a
             className={styles.curriculo}
-            href="https://www.canva.com/design/DAFMtAugAsM/b53dZWUAlLjMG-yo4vnRKQ/view?utm_content=DAFMtAugAsM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+            href={Curriculo}
             target="_blank"
             download
           >
             <GitMerge />
-            Curriculo
+            Currículo
           </a>
 
           <a

@@ -1,13 +1,23 @@
-import { Atom, GithubLogo, LinkedinLogo } from "phosphor-react";
+import {
+  Atom,
+  GithubLogo,
+  LinkedinLogo,
+  Selection,
+  SelectionBackground,
+} from "phosphor-react";
+import { useState } from "react";
 import styles from "./Header.module.css";
 
 export function Header() {
+  const [active, setMode] = useState(false);
+
+  const ToggleMode = () => {
+    setMode(!active);
+  };
+
   return (
     <header className={styles.header}>
-      <strong>
-        Ingrid Aquin
-        <Atom size={32} />
-      </strong>
+      <strong>&lt;Ingrid Aquino /&gt;</strong>
 
       <div className={styles.network}>
         <div className={styles.linkedin}>
