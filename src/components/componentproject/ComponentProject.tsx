@@ -11,7 +11,7 @@ export function ComponentProject({ img, link, projeto }: PropsComponent) {
     <div className={styles.container}>
       <img src={img} alt="" />
       <div>
-        <a href={link}>{projeto}</a>
+        <a href={link} target="_blank">{projeto}</a>
       </div>
     </div>
   );
