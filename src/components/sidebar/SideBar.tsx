@@ -2,6 +2,8 @@ import { GitMerge, YoutubeLogo } from "phosphor-react";
 import { Skills } from "../skills/Skills";
 import styles from "./SideBar.module.css";
 import Curriculo from "./../../assets/curriculo.pdf"
+import My from "./../../assets/my.jpg"
+
 
 export function SideBar() {
   return (
@@ -9,14 +11,14 @@ export function SideBar() {
       <aside className={styles.sideContainer}>
         <img
           src="https://qph.fs.quoracdn.net/main-qimg-204bee6e5d4f289d02653cddf82a4475"
-          alt=""
+          alt="Imagem de capa"
         />
 
         <div className={styles.sideProfile}>
           <img
             className={styles.avatar}
-            src="https://media-exp1.licdn.com/dms/image/C4D03AQGDw_-EUW0htw/profile-displayphoto-shrink_100_100/0/1660654278832?e=1668038400&v=beta&t=xr1MedP2hb77TuP6aWn6NexZi0IPKFJo9JXUsheQyMg"
-            alt=""
+            src={My}
+            alt="Foto da Ingrid"
           />
 
           <p>Ingrid Aquino</p>
